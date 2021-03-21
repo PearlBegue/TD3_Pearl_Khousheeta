@@ -2,8 +2,30 @@
 def mul_num(a,b):
     multiply=a*b;
     return multiply;
+
 def main():
-    num1=int(input("entrez le premier numero"));
-    num2=int(input("entrez le deuxieme numero"));
-    print("Le produit des 2 chiffres est",mul_num(num1,num2));
+	import sys
+	print(sys.argv)
+	i=(len(sys.argv)-1)
+	print("le nombre d'arguments : ",i)
+	
+	if (i==0):
+		num1=int(input("entrez le premier numero"))
+		num2=int(input("entrez le deuxieme numero"))
+		x = int (num1)
+		y = int (num2)
+		print(mul_num(x,y))
+	elif (i==1):
+		num1=int(input("Inserer le deuxieme argument :"))
+		x = int(sys.argv[1])
+		y = (num1)
+		print(mul_num(x,y))
+	elif (i==2):
+		x = int (sys.argv[1])
+		y = int (sys.argv[2])
+ 		print(mul_mul(x,y))
+	else:
+		print("erreur :  veuillz inserer que deux arguments")
+
 main()
+
