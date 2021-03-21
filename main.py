@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/bin/bash
 def add_num(a,b):
     sum=a+b;
@@ -30,5 +31,15 @@ def main():
                 print ("Error: Please Insert only two arguement")
     else:
         print("Thank you for choosing");
+=======
+
+#!/bin/bash
+def main():
+    ans=str(input("Would you want to addition or multiply, Typing A for addition or M for multiply: "));
+    if (ans == a):
+            from addTowlnt import main
+        else (ans == m):
+            from mulTwoInt import main
+>>>>>>> dev
 main()
 
