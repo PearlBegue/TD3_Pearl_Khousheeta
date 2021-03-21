@@ -10,8 +10,8 @@ def main():
 	print("le nombre d'arguments : ",i)
 	
 	if (i==0):
-		num1=int(input("entrez le premier numero"))
-		num2=int(input("entrez le deuxieme numero"))
+                num1=int(input("Inserer le premier argument : "))
+                num2=int(input("Inserer le deuxiement argument : "))
 		x = int (num1)
 		y = int (num2)
 		print(mul_num(x,y))
